@@ -85,7 +85,7 @@ deploy_vless() {
     echo -e "端口号: ${GREEN}${port}${NC}"
     echo -e "UUID: ${GREEN}${uuid}${NC}"
     echo -e "域名: ${GREEN}$USER.serv00.net${NC}"
-    echo -e "vless进程维护定时任务脚本: ${GREEN}cd ~/domains/11.spfnas.us.kg/serv00-script/vless && ./check_vless.sh${NC}"
+    echo -e "vless进程维护定时任务脚本: ${GREEN}cd ~/domains/11.spfnas.us.kg/serv00-script/vless && chmod +x check_vless.sh && ./check_vless.sh${NC}"
     echo -e "VLESS节点信息: ${GREEN}vless://${uuid}@11.spfnas.us.kg:${port}?flow=&security=none&encryption=none&type=ws&host=11.spfnas.us.kg&path=/&sni=&fp=&pbk=&sid=#$USER.serv00.vless${NC}"
 }
 
